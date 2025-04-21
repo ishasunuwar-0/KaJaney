@@ -81,7 +81,7 @@ const Nearby: React.FC = () => {
         </button>
       </div>
 
-      {viewType === 'map' && <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
+      {viewType === 'map' && <LoadScript googleMapsApiKey="AIzaSyApdnBLqJeVW4c5tlZ32v8BzVBVWyJnYlg">
           <GoogleMap mapContainerStyle={{
         width: '100%',
         height: '400px'
